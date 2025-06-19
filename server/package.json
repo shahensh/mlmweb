@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build":"react-scripts build",
     "dev": "nodemon server.js",
     "create-test-users": "node scripts/createTestUser.js",
     "reset-db": "node scripts/resetDb.js"
