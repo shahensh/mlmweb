@@ -90,7 +90,7 @@ const AppRoutes = () => {
     <Routes>
       {/* All main pages inside UserLayout for sidebar/navbar visibility */}
       <Route path="/" element={<UserLayout />}>
-        <Route index element={<Dashboard />} />
+        <Route index element={<Home />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="home" element={<Home />} />
         <Route path="login" element={<Login />} />
